@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2b2a2a;
+  margin-bottom: 20px;
+}
+
+/* Search Input Styling */
+.search-input {
+  padding: 12px 20px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 8px rgba(0, 119, 255, 0.3);
+}
+
+/* Table Styling */
+.table-wrapper {
+  overflow-x: auto; /* Ensures horizontal scrolling for small screens */
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 16px;
+  text-align: left;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #eee;
+}
+
+.table th {
+  background-color: #f9fafb;
+  font-weight: 700;
+  color: #555;
+}
+
+.table tr:hover {
+  background-color: #f7faff;
+  transition: background-color 0.3s ease;
+}
+
+.coin-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coin-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+/* Pagination Styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  background-color: #0077ff;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination .active {
+  background-color: #0056d2;
+  font-weight: bold;
+}
+
+/* Hover & Transition Effects */
+.pagination button:hover:not(:disabled) {
+  background-color: #0056d2;
+}
+
+
+
+
